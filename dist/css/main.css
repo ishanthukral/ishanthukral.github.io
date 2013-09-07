@@ -1,0 +1,164 @@
+body
+{
+	/*background-color: #44556A;*/
+/*	background-image: url(../../assets/images/banner-big.jpg);
+	background-position: center;*/
+	/*background-size: cover;*/
+}
+
+.container
+{
+	min-width: 100%;
+}
+
+/*************** 
+	Banner 
+***************/
+.banner
+{
+	/*background-color: #33485F;*/
+	background-image: url(../../assets/images/banner-big.jpg);
+	background-position: center;
+	color: #272822;
+	font-weight: bold;
+	padding-top: 15%;
+	padding-bottom: 15%;
+	text-align: center;
+}
+.banner h1{
+	font-size: 5em;
+}
+.banner h3{
+	font-size: 2em;
+}
+
+/*************** 
+	social
+***************/
+.social 
+{
+	border-bottom-color: #B1243B;
+	/*background-color: #FFFFFF;*/
+}
+.social a:link{
+	text-decoration: none;
+}
+.social a:hover{
+	color: #D55400;
+}
+.social p{
+	padding-top: 10%;
+	padding-bottom: 5%;
+	text-align: center;
+}
+
+.twitter
+{
+	color: #3C92CF;
+	/*box-shadow: 0 0 10px rgba(10, 10, 10, 0.2);*/
+	z-index: 3;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border-bottom: solid;
+	border-bottom-color: #3C92CF;
+}
+.twitter a:link{
+	color: #3C92CF;
+}
+.twitter a:hover{
+	color: #D55400;
+}
+
+.github
+{
+	color: #000000;
+	/*box-shadow: 0 0 10px rgba(10, 10, 10, 0.2);*/
+	z-index: 3;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border-bottom: solid;
+	border-bottom-color: #000000;
+}
+.github a:link{
+	color: #000000;
+}
+.github a:hover{
+	color: #D55400;
+}
+
+.linkedin
+{
+	color: #39579A;
+	/*box-shadow: 0 0 10px rgba(10, 10, 10, 0.2);*/
+	z-index: 3;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border-bottom: solid;
+	border-bottom-color: #39579A;
+}
+.linkedin a:link{
+	color: #39579A;
+}
+.linkedin a:hover{
+	color: #D55400;
+}
+
+.mail
+{
+	color: #B1243B;
+	/*box-shadow: 0 0 10px rgba(10, 10, 10, 0.2);*/
+	z-index: 3;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border-bottom: solid;
+	border-bottom-color: #B1243B;
+}
+.mail a:link{
+	color: #B1243B;
+}
+.mail a:hover{
+	color: #D55400;
+}
+
+/*************** 
+	About Me
+***************/
+.about
+{
+	color: #44556A;
+	font-weight: bolder;
+	background-color: #ECF0F1;
+	font-size: 1.5em;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.about h2{
+	text-align: center;
+	padding-bottom: 4%;
+}
+
+.about p{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.about a:link{
+	color: #E87E03;
+}
+.about a{
+	text-decoration: none;
+}
+
+/*************** 
+	Footer
+***************/
+.footer
+{
+	/*position: absolute;*/
+	color: #272822;
+	font-size: 1.2em;
+	/*border-top: 1px solid rgba(68, 68, 68, 1);*/
+	/*background-color: #272822;*/
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 2%
+}
