@@ -138,6 +138,7 @@ body
 }
 
 .about p{
+	text-align: justify;
 	padding-left: 10%;
 	padding-right: 10%;
 }
