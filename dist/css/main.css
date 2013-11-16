@@ -158,6 +158,70 @@
 }
 
 /*************** 
+	Projects
+***************/
+.project-container
+{
+	background-color: #E6E6E6;
+	text-align: center;
+}
+.projects
+{
+	padding: 5% 2%;
+}
+.projects a
+{
+	color: black;
+}
+.projects a:link
+{
+	text-decoration: none;
+}
+.projects a:hover
+{
+	color: #D55400;
+}
+
+.projects .headline
+{
+	padding-bottom: 5%;
+}
+
+.projects .wmc
+{
+}
+.projects .wmc img
+{
+	padding-top: 5%;
+	max-height: 60%;
+}
+
+.projects .bt
+{
+}
+.projects .bt img
+{
+	padding-top: 5%;
+	max-height: 35%;
+}
+.projects .bt p
+{
+	padding-top: 5%;
+	padding-bottom: 20%; /* TODO - EDIT */
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.projects .remembr
+{
+}
+.projects .remembr img
+{
+	padding-top: 5%;
+	max-height: 60%;
+}
+
+/*************** 
 	Footer
 ***************/
 .footer
