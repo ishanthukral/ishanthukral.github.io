@@ -181,44 +181,155 @@
 {
 	color: #D55400;
 }
-
 .projects .headline
 {
 	padding-bottom: 5%;
 }
+.projects .description
+{
+	font-size: 1.3em;
+	padding-top: 5%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.projects .work
+{
+	padding-top: 5%;
+	width: 100%;
+}
+.projects .work p
+{
+	background: #1D9E74;
+	color: white;
+	display: inline-block;
+	padding: 1.5%;
+}
+@media only screen and (max-width: 765px) {
+	.projects
+	{
+		padding: 5% 0 0 0;
+	}
+	.projects .description
+	{
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.projects .description
+	{
+		padding-left: 15%;
+		padding-right: 15%;
+	}
+}
 
 .projects .wmc
 {
+	border-bottom: 1px solid #595959;
+	border-right: 1px solid #595959;
+	padding-bottom: 2%;
 }
 .projects .wmc img
 {
 	padding-top: 5%;
 	max-height: 60%;
 }
+@media only screen and (max-width: 765px) {
+	.projects .wmc
+	{
+		background: #5AA4DB;
+		color: white;
+		padding: 5% 0;
+	}
+	.projects .wmc a
+	{
+		color: white;
+	}
+	.projects .wmc a:hover
+	{
+		color: black;
+	}
+	.projects .wmc h3
+	{
+		display: inline-block;
+		padding-bottom: 2%;
+		border-bottom: 2px solid white;
+	}
+}
+
+.projects .remembr
+{
+	border-bottom: 1px solid #595959;
+	padding-bottom: 2%;
+}
+.projects .remembr img
+{
+	padding-top: 5%;
+	max-height: 60%;
+}
+@media only screen and (max-width: 765px) {
+	.projects .remembr
+	{
+		background: #334A5E;
+		color: white;
+		padding: 5% 0;
+	}
+	.projects .remembr a
+	{
+		color: white;
+	}
+	.projects .remembr a:hover
+	{
+		color: black;
+	}
+	.projects .remembr h3
+	{
+		display: inline-block;
+		padding-bottom: 2%;
+		border-bottom: 2px solid white;
+	}
+}
 
 .projects .bt
 {
+	border-right: 1px solid #595959;
 }
 .projects .bt img
 {
 	padding-top: 5%;
 	max-height: 35%;
 }
-.projects .bt p
-{
-	padding-top: 5%;
-	padding-bottom: 20%; /* TODO - EDIT */
-	padding-left: 5%;
-	padding-right: 5%;
+@media only screen and (max-width: 765px) {
+	.projects .bt
+	{
+		background: #27AE60;
+		color: white;
+		padding: 5% 0;
+	}
+	.projects .bt .work p
+	{
+		background: #334A5E;
+	}
+	.projects .bt a
+	{
+		color: white;
+	}
+	.projects .bt a:hover
+	{
+		color: black;
+	}
+	.projects .bt h3
+	{
+		display: inline-block;
+		padding-bottom: 2%;
+		border-bottom: 2px solid white;
+	}
 }
 
-.projects .remembr
+/* TODO REMOVE */
+.projects .temp
 {
-}
-.projects .remembr img
-{
-	padding-top: 5%;
-	max-height: 60%;
+	border-right: none;
 }
 
 /*************** 
