@@ -25,11 +25,14 @@
 ***************/
 .banner-container
 {
-	background-image: url(../../assets/images/banner-big.jpg);
-	background-position: center;
+	/*background-image: url(../../assets/images/banner-big.jpg);
+	background-position: center;*/
 }
 .banner
 {
+	background-image: url(../../assets/images/banner-big.jpg);
+	background-position: center;
+
 	color: #272822;
 	font-weight: bold;
 	padding-top: 5%;
@@ -48,7 +51,7 @@
 ***************/
 .social 
 {
-	min-width: 100%; 
+	/*min-width: 100%;*/ 
 }
 .social a:link{
 	text-decoration: none;
@@ -131,10 +134,12 @@
 ***************/
 .about-container
 {
-	background-color: #ECF0F1;
+	/*background-color: #ECF0F1;*/
 }
 .about
 {
+	background-color: #ECF0F1;
+
 	color: #44556A;
 	font-weight: bolder;
 	font-size: 1.5em;
@@ -163,12 +168,15 @@
 ***************/
 .project-container
 {
-	background-color: #E6E6E6;
-	text-align: center;
+	/*background-color: #E6E6E6;
+	text-align: center;*/
 }
 .projects
 {
-	padding: 5% 2%;
+	background-color: #E6E6E6;
+	text-align: center;
+
+	padding: 3% 0 0 0;
 }
 .projects a
 {
@@ -190,8 +198,8 @@
 {
 	font-size: 1.3em;
 	padding-top: 5%;
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: 20%;
+	padding-right: 20%;
 }
 .projects .work
 {
@@ -205,17 +213,6 @@
 	display: inline-block;
 	padding: 1.5%;
 }
-@media only screen and (max-width: 768px) {
-	.projects
-	{
-		padding: 5% 0 0 0;
-	}
-	.projects .description
-	{
-		padding-left: 20%;
-		padding-right: 20%;
-	}
-}
 @media only screen and (max-width: 500px) {
 	.projects .description
 	{
@@ -226,114 +223,88 @@
 
 .projects .wmc
 {
-	border-bottom: 1px solid #595959;
-	border-right: 1px solid #595959;
-	padding-bottom: 2%;
+	border-bottom: none;
+	border-right: none;
+	background: #5AA4DB;
+	color: white;
+	padding: 5% 0;
 }
 .projects .wmc img
 {
 	padding-top: 5%;
-	max-height: 60%;
+	max-width: 35%;
 }
-@media only screen and (max-width: 768px) {
-	.projects .wmc
-	{
-		border-bottom: none;
-		border-right: none;
-		background: #5AA4DB;
-		color: white;
-		padding: 5% 0;
-	}
-	.projects .wmc img
+.projects .wmc a
 {
-	padding-top: 5%;
-	max-height: 60%;
+	color: white;
 }
-	.projects .wmc a
-	{
-		color: white;
-	}
-	.projects .wmc a:hover
-	{
-		color: black;
-	}
-	.projects .wmc h3
-	{
-		display: inline-block;
-		padding-bottom: 2%;
-		border-bottom: 2px solid white;
-	}
+.projects .wmc a:hover
+{
+	color: black;
+}
+.projects .wmc h3
+{
+	display: inline-block;
+	padding-bottom: 2%;
+	border-bottom: 2px solid white;
 }
 
 .projects .remembr
 {
-	border-bottom: 1px solid #595959;
-	padding-bottom: 2%;
+	border-bottom: none;
+	background: #334A5E;
+	color: white;
+	padding: 5% 0;
 }
 .projects .remembr img
 {
 	padding-top: 5%;
-	max-height: 60%;
+	max-width: 35%;
 }
-@media only screen and (max-width: 768px) {
-	.projects .remembr
-	{
-		border-bottom: none;
-		background: #334A5E;
-		color: white;
-		padding: 5% 0;
-	}
-	.projects .remembr a
-	{
-		color: white;
-	}
-	.projects .remembr a:hover
-	{
-		color: black;
-	}
-	.projects .remembr h3
-	{
-		display: inline-block;
-		padding-bottom: 2%;
-		border-bottom: 2px solid white;
-	}
+.projects .remembr a
+{
+	color: white;
+}
+.projects .remembr a:hover
+{
+	color: black;
+}
+.projects .remembr h3
+{
+	display: inline-block;
+	padding-bottom: 2%;
+	border-bottom: 2px solid white;
 }
 
 .projects .bt
 {
-	border-right: 1px solid #595959;
+	border-right: none;
+	background: #27AE60;
+	color: white;
+	padding: 5% 0;
 }
 .projects .bt img
 {
 	padding-top: 5%;
-	max-height: 32%;
+	max-width: 70%;
 }
-@media only screen and (max-width: 768px) {
-	.projects .bt
-	{
-		border-right: none;
-		background: #27AE60;
-		color: white;
-		padding: 5% 0;
-	}
-	.projects .bt .work p
-	{
-		background: #334A5E;
-	}
-	.projects .bt a
-	{
-		color: white;
-	}
-	.projects .bt a:hover
-	{
-		color: black;
-	}
-	.projects .bt h3
-	{
-		display: inline-block;
-		padding-bottom: 2%;
-		border-bottom: 2px solid white;
-	}
+.projects .bt .work p
+{
+	background: #334A5E;
+}
+.projects .bt a
+{
+	color: white;
+}
+.projects .bt a:hover
+{
+	color: black;
+}
+.projects .bt h3
+{
+	display: inline-block;
+	padding-bottom: 2%;
+	border-bottom: 2px solid white;
 }
 
 /*************** 
