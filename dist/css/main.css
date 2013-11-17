@@ -7,7 +7,7 @@
 
 .container
 {
-	max-width: 100%;
+	min-width: 100%;
 	padding-left: 0;
 	padding-right: 0;
 	margin-left: 0;
@@ -25,14 +25,11 @@
 ***************/
 .banner-container
 {
-	/*background-image: url(../../assets/images/banner-big.jpg);
-	background-position: center;*/
+	background-image: url(../../assets/images/banner-big.jpg);
+	background-position: center;
 }
 .banner
 {
-	background-image: url(../../assets/images/banner-big.jpg);
-	background-position: center;
-
 	color: #272822;
 	font-weight: bold;
 	padding-top: 5%;
@@ -50,9 +47,7 @@
 	social
 ***************/
 .social 
-{
-	/*min-width: 100%;*/ 
-}
+{}
 .social a:link{
 	text-decoration: none;
 }
@@ -134,12 +129,10 @@
 ***************/
 .about-container
 {
-	/*background-color: #ECF0F1;*/
+	background-color: #ECF0F1;
 }
 .about
 {
-	background-color: #ECF0F1;
-
 	color: #44556A;
 	font-weight: bolder;
 	font-size: 1.5em;
@@ -168,14 +161,11 @@
 ***************/
 .project-container
 {
-	/*background-color: #E6E6E6;
-	text-align: center;*/
+	background-color: #E6E6E6;
+	text-align: center;
 }
 .projects
 {
-	background-color: #E6E6E6;
-	text-align: center;
-
 	padding: 3% 0 0 0;
 }
 .projects a
@@ -221,38 +211,41 @@
 	}
 }
 
-.projects .wmc
+.projects .wmc-container
 {
-	border-bottom: none;
-	border-right: none;
 	background: #5AA4DB;
+}
+.projects .wmc-container .wmc
+{
 	color: white;
 	padding: 5% 0;
 }
-.projects .wmc img
+.projects .wmc-container .wmc img
 {
 	padding-top: 5%;
 	max-width: 35%;
 }
-.projects .wmc a
+.projects .wmc-container .wmc a
 {
 	color: white;
 }
-.projects .wmc a:hover
+.projects .wmc-container .wmc a:hover
 {
 	color: black;
 }
-.projects .wmc h3
+.projects .wmc-container .wmc h3
 {
 	display: inline-block;
 	padding-bottom: 2%;
 	border-bottom: 2px solid white;
 }
 
+.projects .remembr-container
+{
+	background: #334A5E;
+}
 .projects .remembr
 {
-	border-bottom: none;
-	background: #334A5E;
 	color: white;
 	padding: 5% 0;
 }
